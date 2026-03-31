@@ -1,5 +1,5 @@
 # BERT_BiLSTM_FOR_CNER
-这是一个基于预训练模型的用来完成中文命名实体识别任务的模型
+这是一个基于预训练模型的用来完成中文命名实体识别任务的模型<br>
 整体结构：BERT+BiLSTM
 小模型train.py可以直接在kaggle平台训练，在输出文件final_model是保留的模型配置和权重
 final_model和test.py放到统一目录下即可
