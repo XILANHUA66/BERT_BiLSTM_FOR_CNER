@@ -5,7 +5,7 @@
 final_model和test.py放到统一目录下即可<br>
 本项目小模型是论文的简化版<br>
 >https://github.com/StanleySun233/HREB-CRF.git
->Bert+BiLSTM+Mega+CRF
+><br>Bert+BiLSTM+Mega+CRF
 
 只是用来满足毕业设计需求，AI辅助代码,痕迹比较重<br>
 ## 数据集
