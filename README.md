@@ -20,3 +20,8 @@ MODEL_PATH = "bert-base-chinese"
 tokenizer = BertTokenizerFast.from_pretrained(MODEL_PATH)
 model = BertBiLSTMForNER.from_pretrained(MODEL_PATH, num_labels=len(label_list))
 ```
+## 模型的下载
+如果想要获得已经训练好的权重<br>
+>https://huggingface.co/XILANHUA11/BERT_BiLSTM_FOR_CNER
+
+下载final_model,并可以用test.py做调用
