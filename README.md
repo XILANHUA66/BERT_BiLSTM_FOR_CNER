@@ -14,7 +14,7 @@ MSRA推出的关于中文命名实体识别的数据集
 dataset = load_dataset("PassbyGrocer/msra-ner")
 ```
 ## Bert
-"bert-base-chinese":google的面向中文文本的pretrain
+google的面向中文文本的pretrain的bert
 ```python
 MODEL_PATH = "bert-base-chinese"
 tokenizer = BertTokenizerFast.from_pretrained(MODEL_PATH)
